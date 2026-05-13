@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="mn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>360 виртуал аялал</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"
+    />
+    <style>
+      @font-face {
+        font-family: "Residem Jost";
+        font-style: normal;
+        font-weight: 200 800;
+        font-display: swap;
+        src: url("/fonts/residem/jost-normal-latin.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "Residem DM Sans";
+        font-style: normal;
+        font-weight: 200 800;
+        font-display: swap;
+        src: url("/fonts/residem/dm-sans-normal-latin.woff2") format("woff2");
+      }
+
+      :root {
+        --body-font: "Residem DM Sans", "Residem Jost", Helvetica, Arial, sans-serif;
+        --heading-font: "Residem Jost", Helvetica, Arial, sans-serif;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #3d372b;
+        font-family: var(--body-font);
+      }
+
+      #panorama {
+        width: 100%;
+        height: 100%;
+      }
+
+      .pnlm-container {
+        font-family: var(--body-font);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="panorama"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <script src="/showroom-config.js"></script>
+  </body>
+</html>
