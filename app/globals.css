@@ -1366,6 +1366,42 @@ input {
   border-color: #c9c2b7 !important;
 }
 
+.hero-showroom-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-height: 3.15rem;
+  width: fit-content;
+  border: 1px solid var(--flat-navy);
+  background: var(--flat-navy);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 1000;
+  letter-spacing: 0.16em;
+  padding: 0 1.1rem;
+  text-transform: uppercase;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.hero-showroom-link strong {
+  color: var(--flat-orange);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+}
+
+.hero-showroom-link:hover {
+  background: var(--flat-orange);
+  border-color: var(--flat-orange);
+  color: #ffffff;
+}
+
+.hero-showroom-link:hover strong {
+  color: #ffffff;
+}
+
 @keyframes suite-fade-up {
   from {
     opacity: 0;
