@@ -154,6 +154,13 @@ export default function Home() {
                 Хотын төвд ойр байх нь хангалтгүй. Цаг, нууцлал, үйлчилгээ,
                 орчны чанарыг нэг дор шийдсэн байх нь энэ төслийн гол үнэ цэнэ.
               </p>
+              <Link
+                className="hero-showroom-link mt-7 inline-flex min-h-12 w-fit items-center gap-3 border border-[#121b34] bg-[#121b34] px-5 text-xs font-black uppercase tracking-[0.16em] text-white transition hover:border-[#ff6b1a] hover:bg-[#ff6b1a]"
+                href="/showroom"
+              >
+                <span>360 showroom</span>
+                <strong className="text-[#ff6b1a]">Үзэх</strong>
+              </Link>
             </div>
           </div>
         </div>
